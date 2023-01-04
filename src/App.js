@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 // import Accordion from './components/Accordion';
 // import Search from './components/Search';
 // import Dropdown from './components/Dropdown';
-import Translate from './components/Translate';
+// import Translate from './components/Translate';
 
-const App = () => {
-  return (
-    <div>
-      <Translate />
-    </div>
-  );
-};
-export default App;
+// const App = () => {
+//   return (
+//     <div>
+//       <Translate />
+//     </div>
+//   );
+// };
+// export default App;
 // // Dropdown
 // const options = [
 //   {
@@ -87,3 +87,10 @@ export default App;
 // export default () => {
 //   return <Counter />;
 // };
+
+// // Exercise Two (useEffect, useState)
+
+import TwoE from './exercise/TwoE';
+export default () => {
+  return <TwoE />;
+};
